@@ -53,9 +53,9 @@ function dnsExiste(string $name, string $type = 'tld'): bool
 }
 
 // Exemples d’utilisation :
-var_dump(dnsExiste('discount', 'tld'));          // true
-var_dump(dnsExiste('inexistant', 'tld'));   // false
-var_dump(dnsExiste('azy.discount', 'domain')); // true ou false selon disponibilité
-var_dump(dnsExiste('inf.so', 'domain')); // true ou false selon disponibilité
-var_dump(dnsExiste('vrd.ci', 'domain')); // true ou false selon disponibilité
-var_dump(dnsExiste('vegtgrserthgsetrhg.discount', 'domain'));  // généralement false
+var_dump(dnsExiste('discount', 'tld'));                         // true
+var_dump(dnsExiste('efgfegeieigi', 'tld'));                     // false
+var_dump(dnsExiste('azy.discount', 'domain'));                  // true
+var_dump(dnsExiste('inf.so', 'domain'));                        // true
+var_dump(dnsExiste('egegrzehgerthet.ci', 'domain'));            // false
+var_dump(dnsExiste('vegtgrserthgsetrhg.discount', 'domain'));   // false

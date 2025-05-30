@@ -1,13 +1,6 @@
-# extract_domain_name
-Really extract a domain name from a URL including 1rst level and 2nd level TLD.
+# check_dn_tld
 
-send URL to the function that return the domain name.
+Check if a tld exist or if a domain name is registered
 
-$domain_name=extract_domain_name("www.vrdci.io");
-
-$domain_name=extract_domain_name("vrdci.io");
-
-$domain_name=extract_domain_name("https://www.vrdci.io/rubrique/actualite/application-oups-anniversaire-fete.php");
-
-More to come !
+Enjoy !
 🅰🅽🆃🅾🅸🅽🅴 🅼🆄🆂🆂🅰🆁🅳 / 🆅🆁🅳🅲🅸
